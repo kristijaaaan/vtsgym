@@ -1,0 +1,122 @@
+body{
+	background-image: url(pozadina.jpg);
+	height:920px;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float:left;
+	list-style-type:none;
+	position:absolute;
+	margin-top:50px;
+}
+ul li{ display:inline; }
+a{
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
+	color:white;
+	padding:15px 40px;
+	border:2px solid white;
+	border-radius:25px;
+	transition:0.9s;
+}
+a:hover{
+	background-color:white;
+	color:black;
+}
+.anim{
+	height:150px;
+	width:150px;
+	border-radius:20px;
+	position:absolute;
+}
+.anim_div{
+	position: relative;
+	left: 700px;
+	top: 10px;
+	width:150px;
+}
+.cenovnik{
+	border:3px solid white;
+	height:300px;
+	width:600px;
+}
+h1{
+	color:white;
+	text-align:center;
+}
+tr th{ 
+	color:white;
+	font-size:30px;
+	font-weight:bold;
+}
+.naslov{
+	position:absolute;
+	top:220px;
+	left:780px;
+}
+.naslov1{
+	height:150px;
+	width:300px;
+	border-radius: 25px;
+}
+.cene{
+	position:absolute;
+	top:400px;
+	left:50px;
+}
+p{
+	color:white;
+	font-size:23px;
+}
+.dijagnostika{
+	height:300px;
+	width:1100px;
+	position:absolute;
+	top:400px;
+	left:700px;
+}
+.login{
+	position: absolute;
+	top:850px;
+	left:1700px;
+	border:2px solid white;
+	background-color: black;
+	color:white;
+	font-size: 25px;
+	padding: 10px 15px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.afterlogin{
+	position: absolute;
+	top:830px;
+	left:1730px;
+	visibility: hidden;
+	font-size: 20px;
+	font-weight: bold;
+	border:2px solid white;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
+.nk{
+	position: absolute;
+	bottom:30px;
+	left:50px;
+	border:2px solid white;
+	background-color: black;
+	color:white;
+	font-size: 15px;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
+footer{
+	position:absolute;
+	bottom:0px;
+	left:730px;
+}
+.footertext{
+	font-weight:bold;
+	font-size:26px;
+}

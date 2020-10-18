@@ -1,0 +1,99 @@
+body{
+	background-image: url(pozadina.jpg);
+	height:930px;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float:left;
+	list-style-type:none;
+	position:absolute;
+	margin-top:50px;
+}
+.meni{
+	top:10px;
+}
+ul li{ display:inline; }
+a{
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#fff;
+	padding:15px 40px;
+	border:2px solid white;
+	border-radius:25px;
+	transition:0.9s;
+}
+a:hover{
+	background-color:white;
+	color:black;
+}
+.anim{
+	height:150px;
+	width:150px;
+	border-radius:20px;
+	position:absolute;
+	left: 150px;
+}
+.anim_div{
+	position: relative;
+	left: 700px;
+	top: 10px;
+	width:150px;
+}
+.animacija{
+	border-radius:20px;
+	height: 130px;
+	width: 230px;
+	position: absolute;
+	bottom: 10px;
+	right:20px;
+}
+.animacijatext{
+	border-radius:20px;
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	top:-1px;
+	left:33px;
+	color:white;
+	font-weight: bold;
+	font-size: 25px;
+	visibility: hidden;
+}
+p{
+	color:white;
+	font-size:20px;
+}
+h1{color:white; text-align:center;}
+.teretana{
+	width:900px;
+	position:relative;
+	top:180px;
+	left:30px;
+}
+.ppt{
+	width:900px;
+	position:absolute;
+	top:180px;
+	left:970px;
+}
+.pt{
+	width:900px;
+	position:absolute;
+	top:550px;
+	left:970px;
+}
+
+.footer{
+	position:absolute;
+	left:370px;
+	top:430px;
+	width:500px;
+	height:100px;
+}
+.footertext{
+	font-weight:bold;
+	font-size:26px;
+	color:white;
+}
