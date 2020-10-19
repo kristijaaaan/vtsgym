@@ -121,3 +121,15 @@ footer{
 	font-weight:bold;
 	font-size:26px;
 }
+@media screen and (max-width:1000px){
+	.anim{display:none;}
+	ul li{
+	display:block;
+	margin-bottom:50px;
+	}
+	.footer{
+	position:absolute;
+	top:890px;
+	left:100px;
+	}
+}
