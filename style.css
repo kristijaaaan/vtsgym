@@ -1,7 +1,7 @@
 body{
 	background-image: url(pozadina.jpg);
-	background-size: cover;
 	background-position: center;
+	background-size: cover;
 	height:920px;
 }
 ul{
