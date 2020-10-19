@@ -37,6 +37,11 @@ a:hover{
 	top: 10px;
 	width:150px;
 }
+.fb-share-button{
+	position:absolute;
+	top: 210px;
+	left: 780px;
+}
 .cenovnik{
 	border:3px solid white;
 	height:300px;
