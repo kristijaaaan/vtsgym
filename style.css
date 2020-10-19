@@ -126,9 +126,25 @@ footer{
 	display:block;
 	margin-bottom:50px;
 	}
-	.footer{
+	.naslov1{
+	height:150px;
+	width:300px;
+	border-radius: 25px;
+	position: absolute;
+	top:1px;
+	right:150px;
+	}
+	.dijagnostika{
+	height:500px;
+	width:500px;
 	position:absolute;
-	top:890px;
+	top:800px;
 	left:100px;
+	}
+	.footer{
+	width: 500px;
+	position:absolute;
+	top:430px;
+	right:120px;
 	}
 }
