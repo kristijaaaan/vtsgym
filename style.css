@@ -1,8 +1,8 @@
 body{
 	background-image: url(pozadina.jpg);
-	height:920px;
 	background-size: cover;
 	background-position: center;
+	height:920px;
 }
 ul{
 	float:left;
