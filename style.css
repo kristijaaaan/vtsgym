@@ -42,6 +42,11 @@ a:hover{
 	top: 180px;
 	left: 820px;
 }
+.fb-like{
+	position:absolute;
+	top: 188px;
+	left: 880px;
+}
 .cenovnik{
 	border:3px solid white;
 	height:300px;
